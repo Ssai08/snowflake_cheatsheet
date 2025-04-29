@@ -12,7 +12,7 @@ st.set_page_config(page_title='Snowflake', layout='wide',
                 #    initial_sidebar_state=st.session_state.get('sidebar_state', 'collapsed'),
 )
 
-st.image("./logo/ungifted_amateur_v5.png", use_column_width=True )
+st.image("./logo/ungifted_amateur_v5.png", use_container_width=True )
 
 st.snow()
 
@@ -50,12 +50,13 @@ with exp_col:
 
                     """)
 
-st.sidebar.title("❄️ SnowFlake Cheatsheet 📄")
+st.sidebar.title("❄️ Snowflake Cheatsheet 📄")
 st.sidebar.caption("Made by an [Ungifted Amateur](https://www.linkedin.com/in/siavash-yasini/)")
 
 st.sidebar.caption("Check out the accompanying Snowflake tutorial [here](https://medium.com/snowflake/the-ungifted-amateurs-guide-to-snowflake-449284e4bd72).")
 
 with st.sidebar.expander("See My Other Streamlit Apps"):
+    st.caption("streamliTissues: [App](https://tissues.streamlit.app/) 🎈")
     st.caption("Sophisticated Palette: [App](https://sophisticated-palette.streamlit.app/) 🎈,  [Blog Post](https://blog.streamlit.io/create-a-color-palette-from-any-image/) 📝")
     st.caption("Wordler: [App](https://wordler.streamlit.app/) 🎈,  [Blog Post](https://blog.streamlit.io/the-ultimate-wordle-cheat-sheet/) 📝")
     st.caption("Koffee of the World: [App](https://koffee.streamlit.app/) 🎈")
